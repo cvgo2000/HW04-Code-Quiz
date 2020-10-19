@@ -1,0 +1,64 @@
+/* Center column */
+.col-sm-8 {
+  margin: auto;
+  padding: 100px;
+}
+
+/* Center h1 tags */
+h1 {
+  text-align: center;
+}
+
+/* Center paragraph tags */
+p {
+  text-align: center;
+}
+
+/* Center "start quiz" button on home page */
+#start-quiz {
+  margin: auto;
+}
+
+/* Styling for all buttons */
+button {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  border: rgb(96, 79, 255);
+  border-radius: 10px;
+  background: rgb(96, 79, 255);
+  color: white;
+  padding: 10px;
+}
+
+/* Styling for submit button on end screen */
+#initial-submit {
+  display: inline;
+  margin-left: 10px;
+  padding: 4px;
+}
+
+/* Styling for Go Back button */
+#go-back {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Styling for Clear Highscores button */
+#clear {
+  display: inline;
+}
+
+/* Styling for display message of user answer choice */
+#result {
+  margin-top: -75px;
+  color: rgb(96, 79, 255);
+}
+
+ol {
+  background: rgb(96, 79, 255, 0.5);
+}
+
+li {
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
