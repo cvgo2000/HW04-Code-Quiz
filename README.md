@@ -2,6 +2,8 @@
 
 This week's assignment challenged us to create a working multiple choice quiz using vanilla JavaScript that had a working timer, remove time anytime a wrong answer is given, and retain scores on a running high score list via local memory.
 
+Getting the local storage and the timer elements were the most challenging part of this assignment, and one I would not have been able to complete without detailed tutor assistance.  
+
 
 Links
 To live site:  https://cvgo2000.github.io/HW04-Code-Quiz/
