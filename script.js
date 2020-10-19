@@ -7,55 +7,75 @@ var viewHighscoresEl = document.querySelector("a");
 var currentQuestionIndex = 0;
 var score = 0;
 var hiscoresList = [];
-var secondsLeft = 80;
+var secondsLeft = 120;
 
-// Question and answer bank
+// Question and answer list
 var questions = [
     {
-      question: "Commonly used data types do NOT include:",
+      question: "What is the highest grossing film of all time without taking inflation into account?",
       answers: [
-        { text: "strings", correct: false },
-        { text: "numbers", correct: false },
-        { text: "booleans", correct: false },
-        { text: "alerts", correct: true },
+        { text: "Titanic", correct: false },
+        { text: "Avatar", correct: false },
+        { text: "Star Wars: The Force Awakens", correct: false },
+        { text: "Avengers: Endgame", correct: true },
       ],
     },
     {
       question:
-        "The condition in an if/else statement is contained within _____?",
+        "Which actor or actress is killed off in the opening scene of the movie Scream?",
       answers: [
-        { text: "parenthesis", correct: true },
-        { text: "curly brackets", correct: false },
-        { text: "quotation marks", correct: false },
-        { text: "square brackets", correct: false },
+        { text: "Drew Barrymore", correct: true },
+        { text: "Courtney Cox", correct: false },
+        { text: "Neve Campbell", correct: false },
+        { text: "Rose McGowan", correct: false },
       ],
     },
     {
-        question: "In which HTML element tag do we put the JavaScript?",
+        question: "What is the name of Han Solo's ship?",
         answers: [
-          { text: "<body>", correct: false },
-          { text: "<script>", correct: true },
-          { text: "<javascript>", correct: false },
-          { text: "<link>", correct: false },
+          { text: "The Peanutbutter Falcon", correct: false },
+          { text: "The Millenium Falcon", correct: true },
+          { text: "The X-Wing", correct: false },
+          { text: "Star Destroyer", correct: false },
         ],
     },
     {
         question:
-          "String values must be enclosed within _____ when being assigned to variables?",
+          "Which film did Steven Spielberg win his first Oscar for Best Director?",
         answers: [
-          { text: "quotes", correct: true },
-          { text: "curly brackets", correct: false },
-          { text: "parenthesis", correct: false },
-          { text: "commas", correct: false },
+          { text: "Schindler's List", correct: true },
+          { text: "Jaws", correct: false },
+          { text: "E.T.", correct: false },
+          { text: "Catch Me If You Can", correct: false },
         ],
       },
       {
-        question: "Arrays in JavaScript can be used to store _____.",
+        question:
+          "What is Harry Potter's patronus?",
         answers: [
-          { text: "numbers and strings", correct: false },
-          { text: "other Arrays", correct: false },
-          { text: "booleans", correct: false },
-          { text: "all of the above", correct: true },
+          { text: "A horse", correct: false },
+          { text: "An otter", correct: false },
+          { text: "A stag", correct: true },
+          { text: "A wolf", correct: false },
+        ],
+      },
+      {
+        question:
+          "What is the first feature-length animated Disney film ever released?",
+        answers: [
+          { text: "Snow White and the Seven Dwarfs", correct: true },
+          { text: "Fantasia", correct: false },
+          { text: "Pinnochio", correct: false },
+          { text: "Dumbo", correct: false },
+        ],
+      },
+      {
+        question: "What is the name of Quint's shark-hunting boat in Jaws?",
+        answers: [
+          { text: "The Whale", correct: false },
+          { text: "The Orca", correct: false },
+          { text: "The Dolphin", correct: false },
+          { text: "The Shark", correct: true },
         ],
       }
 ];
