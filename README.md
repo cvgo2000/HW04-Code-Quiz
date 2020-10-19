@@ -10,6 +10,6 @@ To repo:  https://github.com/cvgo2000/HW04-Code-Quiz
 
 Screenshots of working quiz:
 
-![Screenshot 1](/Assets/Screenshot 1.png
-![Screenshot 2](/Assets/Screenshot 2.png
-![Screenshot 3](/Assets/Screenshot 3.png
+https://github.com/cvgo2000/HW04-Code-Quiz/blob/main/Assets/Screenshot%201.png
+https://github.com/cvgo2000/HW04-Code-Quiz/blob/main/Assets/Screenshot%202.png
+https://github.com/cvgo2000/HW04-Code-Quiz/blob/main/Assets/Screenshot%203.png
